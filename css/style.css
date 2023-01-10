@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divMain {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cf1919;
+}
+
+.imageShadow { 
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
