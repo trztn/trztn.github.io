@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.canvas{
+    width: 375px;
+    height: 700px;
+    background: url(../images/cloud.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+.floor{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+.panel{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+  
+.buttonLeft {
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+.buttonRight {
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+.alertBox{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(45% - 100px);
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+}
+.emoji{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% - 40px);
+    background: url(../images/smiley.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape0{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/cone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/cube.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/cylinder.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/kite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape5{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/parallelogram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.shape6{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/pyramid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.shape7{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape8{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/sphere.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.shape9{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/square.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape10{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/trapezoid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shape11{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/triangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
